@@ -27,7 +27,6 @@ foreach ($initial_data as $instruction) {
         $horizontal += $movement;
         break;
     }
-
 }
 
 echo "Challenge 1 : " . ($depth * $horizontal) . "<br />";
@@ -54,7 +53,6 @@ foreach ($initial_data as $instruction) {
         break;
     case 'down':
         $aim += $movement;
-
         break;
     case 'forward':
         $horizontal += $movement;
