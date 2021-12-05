@@ -2,7 +2,7 @@
 $initial_data = explode("\n", trim(file_get_contents('data.txt')));
 
 /* ----------------------------------------------------------
-  Advent 1
+  Challenge 1
 ---------------------------------------------------------- */
 
 $prev_value = false;
@@ -15,10 +15,10 @@ foreach ($initial_data as $depth) {
     $prev_value = $depth;
 }
 
-echo "Advent 1 : " . $nb_bigger . "<br />";
+echo "Challenge 1 : " . $nb_bigger . "<br />";
 
 /* ----------------------------------------------------------
-  Advent 2
+  Challenge 2
 ---------------------------------------------------------- */
 
 $sums = array();
@@ -43,4 +43,4 @@ foreach ($sums as $depth) {
     $prev_value = $depth;
 }
 
-echo "Advent 2 : " . $nb_bigger . "<br />";
+echo "Challenge 2 : " . $nb_bigger . "<br />";
